@@ -16,7 +16,7 @@ body {
 
 .content {
     width: 100%;
-    margin-top: 30px;
+    margin: 30px 0;
     font-family: Microsoft YaHei Light, Microsoft YaHei, "黑体", sans-serif;
 }
 
@@ -37,6 +37,9 @@ h1.info {
 h4 {
     font-size: 16px;
 }
+p {
+  margin: 15px 0;
+}
 
 h4.info {
     font-weight: 200;
@@ -46,4 +49,62 @@ h4.info {
 h4.info a{
   text-decoration: none;
   color: #999;
+  margin-right: 50px;
+}
+.iconfont{
+  color: #999;
+}
+h4.info a .iconfont{
+  font-size: 20px;
+  vertical-align: middle;
+}
+h3 {
+  font-size: 18px;
+}
+.title {
+  font-weight: 200;
+  color: #444;
+  font-size: 18px;
+  margin-top: 30px;
+}
+
+.content ul {
+  color: #777;
+}
+
+.project {
+  color: #999;
+}
+.project p span:first-child {
+  display: inline-block;
+  vertical-align: top;
+  width: 30%;
+}
+.project p span{
+  display: inline-block;
+  width: 68%;
+}
+.project a{
+  text-decoration: none;
+  color: #999;
+  padding: 2px;
+  border: 1px solid #ccc;
+  border-radius: 2px;
+  color: #ccc;
+  margin-right: 4px;
+}
+.project li{
+  margin-bottom: 24px;
+}
+
+.favorite span{
+  background-color: #eee;
+  margin-bottom: 10px;
+  padding: 5px;
+}
+
+.thanks{
+  margin-top: 25px;
+  text-align: center;
+  color: #777;
 }
