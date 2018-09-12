@@ -77,11 +77,20 @@ h3 {
     margin-top: 30px;
 }
 
+.experience li p{
+    line-height: 34px;
+}
+
 .content ul {
     color: #777;
 }
 
 .project {
+    color: #777;
+}
+
+.skills a {
+    text-decoration: none;
     color: #777;
 }
 
@@ -109,14 +118,22 @@ h3 {
     margin-bottom: 24px;
 }
 
+.favorite{
+    margin-left: 24px;
+}
+
 .favorite span {
     background-color: #eee;
     margin-bottom: 10px;
     padding: 5px;
 }
 
+.evaluation li{
+    margin-top: 15px;
+}
+
 .thanks {
-    margin-top: 25px;
+    margin-top: 80px;
     text-align: center;
     color: #777;
 }
