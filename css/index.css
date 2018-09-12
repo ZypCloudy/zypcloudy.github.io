@@ -44,12 +44,12 @@ p {
 
 h4.info {
     font-weight: 200;
-    color: #999;
+    color: #333;
 }
 
 h4.info a {
     text-decoration: none;
-    color: #999;
+    color: #333;
     margin-right: 50px;
 }
 
@@ -58,7 +58,7 @@ h4.info .email {
 }
 
 .iconfont {
-    color: #999;
+    color: #333;
 }
 
 h4.info a .iconfont {
@@ -78,11 +78,11 @@ h3 {
 }
 
 .content ul {
-    color: #777;
+    color: #333;
 }
 
 .project {
-    color: #999;
+    color: #333;
 }
 
 .project p span:first-child {
@@ -98,7 +98,7 @@ h3 {
 
 .project a {
     text-decoration: none;
-    color: #999;
+    color: #333;
     padding: 2px;
     border: 1px solid #ccc;
     border-radius: 2px;
@@ -119,5 +119,5 @@ h3 {
 .thanks {
     margin-top: 25px;
     text-align: center;
-    color: #777;
+    color: #333;
 }
